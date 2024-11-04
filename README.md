@@ -1,7 +1,7 @@
 **** 
 
 
-### Ex. No. :7 CONFIGURING ANALOG PORT TO INTEFACE AN ANALOG SENSOR AND READ THE VALUES USING SERIAL PORT
+### Ex. No. :6 CONFIGURING ANALOG PORT TO INTEFACE AN ANALOG SENSOR AND READ THE VALUES USING SERIAL PORT
 ## Date: 28/10/24
 ###  
 
@@ -224,12 +224,10 @@ void Error_Handler(void)
     __disable_irq();
   while (1)
   }
-
-#ifdef  USE_FULL_ASSERT
 void assert_failed(uint8_t *file, uint32_t line)
 {
 }
-#endif
+
 ```
 
  
